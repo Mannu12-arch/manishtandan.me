@@ -1,0 +1,63 @@
+.tech-icon{
+
+    width:72px;
+    height:72px;
+
+    border-radius:50%;
+
+    background:#08131d;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.4);
+
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.tech-icon img{
+    width:36px;
+    height:36px;
+}
+
+.tech-icon img{
+    width:34px;
+}
+
+.react-icon{
+    position:absolute;
+    top:10px;
+    left:280px;
+    transform:translateX(-50%);
+}
+
+.html-icon{
+    position:absolute;
+    /* left: 30px; */
+    /* right: auto; */
+    top:210px;
+}
+.css-icon{
+    position:absolute;
+    left:100px;
+    bottom:50px;
+}
+
+.js-icon{
+    position:absolute;
+    /* right:40px; */
+    top:210px;
+}
+
+.node-icon{
+    position:absolute;
+    right:100px;
+    bottom:50px;
+}
+/* {Icons Hover effect} */
+.tech-icon:hover{
+    transform: scale(1.15);
+    box-shadow:0 0 25px #20dbc2;
+    cursor:pointer;
+}

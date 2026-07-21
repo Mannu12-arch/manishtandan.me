@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family: Inter, sans-serif;
+  background:#07111B;
+  color:#fff;
+  overflow-x:hidden;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+button{
+  border:none;
+  outline:none;
+  cursor:pointer;
+  font-family:inherit;
+}
+
+img{
+  width:100%;
+  display:block;
+}
+
+ul{
+  list-style:none;
+}
